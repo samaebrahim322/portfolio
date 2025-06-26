@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <NavbarApp />
-    <!-- <router-view /> -->
-    <HomePage />
+    <router-view />
+    <!-- <HomePage /> -->
     <AboutPage />
     <ProjectsPage />
     <ContactMe />
@@ -13,7 +13,7 @@
 <script>
 import NavbarApp from "./components/Navbar.vue"
 import FooterApp from "./components/Footer.vue"
-import HomePage from "./views/Home.vue"
+// import HomePage from "./views/Home.vue"
 import AboutPage from "./views/AboutPage.vue"
 import ProjectsPage from "./views/Projects.vue"
 import ContactMe from "./views/Contact Me.vue"
@@ -23,7 +23,7 @@ export default {
   components: {
     NavbarApp,
     FooterApp,
-    HomePage,
+    // HomePage,
     AboutPage,
     ProjectsPage,
     ContactMe
