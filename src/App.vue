@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavbarApp />
-    <router-view />
+    <!-- <router-view /> -->
     <HomePage />
     <AboutPage />
     <ProjectsPage />
