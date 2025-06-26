@@ -1,5 +1,5 @@
 <template>
-  <section class="hero-section" id="home">
+  <section class="hero-section">
     <div class="hero-overlay"></div>
     <div class="content-wrapper fade-in">
       <!-- Text Column -->

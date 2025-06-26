@@ -3,7 +3,7 @@
         <div class="container nav-content">
             <router-link class="navbar-logo" to="/">
                 <!-- <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="logo" width="36" height="36" /> -->
-            <img src="../assets/samalogo.png" alt="logo" width="36" height="36" />
+                <img src="../assets/samalogo.png" alt="logo" width="36" height="36" />
 
             </router-link>
 
@@ -33,20 +33,20 @@
                         @click="closeMenu">Contact</router-link>
                 </li>
             </ul> -->
-       <ul class="nav-links" :class="{ show: isOpen }">
-  <li>
-    <a class="nav-link" href="#home" @click="closeMenu">Home</a>
-  </li>
-  <li>
-    <a class="nav-link" href="#about" @click="closeMenu">About</a>
-  </li>
-  <li>
-    <a class="nav-link" href="#projects" @click="closeMenu">Projects</a>
-  </li>
-  <li>
-    <a class="nav-link" href="#contact" @click="closeMenu">Contact</a>
-  </li>
-</ul>
+            <ul class="nav-links" :class="{ show: isOpen }">
+                <li>
+                    <a class="nav-link" href="#" @click="closeMenu">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#about" @click="closeMenu">About</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#projects" @click="closeMenu">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#contact" @click="closeMenu">Contact</a>
+                </li>
+            </ul>
 
         </div>
     </nav>

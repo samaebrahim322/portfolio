@@ -2,10 +2,10 @@
   <div id="app">
     <NavbarApp />
     <router-view />
-    <HomePage/>
-    <AboutPage/>
-    <ProjectsPage/>
-      <ContactMe/>
+    <HomePage />
+    <AboutPage />
+    <ProjectsPage />
+    <ContactMe />
     <FooterApp />
   </div>
 </template>
